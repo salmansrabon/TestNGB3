@@ -1,0 +1,7 @@
+.gradle
+.idea
+allure-report
+allure-results
+build
+gradle
+TestNGB3.zip

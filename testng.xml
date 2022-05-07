@@ -1,0 +1,24 @@
+<suite thread-count="1" verbose="1" name="E-commerce portal automation">
+    <groups>
+        <run>
+<!--            <include name="signup_smoke"></include>-->
+            <include name="login_smoke"></include>
+            <include name="purchase"></include>
+        </run>
+    </groups>
+    <test name="E-commerce portal Signup">
+        <classes>
+            <class name="TestRunner.SignupTestRunner"/>
+        </classes>
+    </test>
+    <test name="E-commerce portal Login">
+        <classes>
+            <class name="TestRunner.LoginTestRunner"/>
+        </classes>
+    </test>
+    <test name="E-commerce portal purchase product">
+        <classes>
+            <class name="TestRunner.ProductPurchaseTestRunner"/>
+        </classes>
+    </test>
+</suite>
